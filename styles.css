@@ -1,0 +1,48 @@
+.grid{
+    height: 700px;
+    width: 450px;
+    font-size: 3rem;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border: 5px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.innergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+.value{
+    grid-column: span 4;
+    padding: 30px;
+    background-color: rgb(78, 78, 78);
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(133, 132, 131, 0.699);
+    padding: 30px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.operations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 30px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
